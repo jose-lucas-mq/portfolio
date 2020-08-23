@@ -1,0 +1,46 @@
+:root{
+    --bg-color-primary : #141414;
+    --bg-color-secundary: #323232;
+    --ft-color-title : #562fa3;
+    --ft-color-text : #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.8em;
+    background-color: var(--bg-color-secundary);
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--bg-color-primary);
+  }
+
+  .navbar li{
+    list-style: none;
+  }
+  
+  
+  .navbar i {
+    float: left;
+    display: block;
+    color: var(--ft-color-title);
+    text-align: center;
+    padding: 4% 5.7%;
+    text-decoration: none;
+    font-size: .8em;
+  }
+  
+  
+  .navbar i:hover {
+    background-color: var(--bg-color-secundary);
+    color: var(--ft-color-text);
+  }
+
