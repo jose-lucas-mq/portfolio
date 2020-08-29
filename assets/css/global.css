@@ -2,6 +2,7 @@
     --bg-color-primary : #141414;
     --bg-color-secundary: #323232;
     --ft-color-title : #562fa3;
+    --ft-color-subtitle : #665191;
     --ft-color-text : #ffffff;
 }
 
@@ -15,8 +16,11 @@ body{
     background-color: var(--bg-color-secundary);
 }
 
+/* MENU */
+
 .navbar {
-    width: 100%;
+    width: 5%;
+    height: 100vh;
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -25,15 +29,15 @@ body{
 
   .navbar li{
     list-style: none;
+    cursor: pointer;
   }
   
-  
   .navbar i {
-    float: left;
     display: block;
     color: var(--ft-color-title);
     text-align: center;
-    padding: 4% 5.7%;
+    padding: 90% 0% 90% 0%;
+    /* padding-left: 6%; */
     text-decoration: none;
     font-size: .8em;
   }
@@ -44,3 +48,39 @@ body{
     color: var(--ft-color-text);
   }
 
+/* SOBRE MIM */
+
+  #sobre_mim .me{
+      background-image: url(../img/me.jpg);
+      background-position: center center;
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+
+      margin: 5% auto;
+      box-shadow: 5px 0px 35px 0px rgba(255,255,255,.3);
+  }
+
+  #sobre_mim h1{
+      font-family:'Poppins', sans-serif;
+      font-size: 1.4em;
+      text-align: center;
+      color: var(--ft-color-title);
+  }
+
+  #sobre_mim h2{
+    font-family:'Poppins', sans-serif;
+    font-size: .6em;
+    text-align: center;
+    color: var(--ft-color-subtitle);
+  }
+
+  #sobre_mim p{
+    font-family:'Archivo', sans-serif;
+    font-size: .5em;
+    text-align: center;
+    color: var(--ft-color-text);
+    margin: 5% auto;
+    width: 60%;
+  }
