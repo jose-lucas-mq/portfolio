@@ -10,17 +10,19 @@ const About = () => {
 
             <br />
             <br />
-            <br />
 
-            Sou
+            Eu sou
             <Bold>
                 <Typical
                 steps=
-                    {['desenvolvedor front end ', 2500,
-                        'desginer ', 2500,
-                        'pesquisador UI/UX ', 2500,
-                        'fã de Star Wars ', 2500,
+                    {[  'dev front end ', 2500,
+                        'dev fullstack ', 2500,
+                        'estudante ', 2500, 
+                        'investidor ', 2500, 
+                        'fã de Star Wars ', 2500, 
+                        'fã da Marvel ', 2500
                     ]}
+
                     loop={Infinity}
                     wrapper="p"
                 />
