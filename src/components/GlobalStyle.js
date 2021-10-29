@@ -10,7 +10,7 @@ export const Styles = createGlobalStyle`
     background-color: #171717;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    padding: 0px 45px;
+    padding: 0px 30px;
   }
   button, textarea, input {
     font-family: 'Poppins', sans-serif;

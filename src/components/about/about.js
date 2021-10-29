@@ -15,8 +15,9 @@ const About = () => {
             <Bold>
                 <Typical
                 steps=
-                    {[  'dev front end ', 2500,
-                        'dev fullstack ', 2500,
+                    {[  ' ', 1000,
+                        'dev front end ', 2500,
+                        'ui designer ', 2500,
                         'estudante ', 2500, 
                         'investidor ', 2500, 
                         'fã de Star Wars ', 2500, 

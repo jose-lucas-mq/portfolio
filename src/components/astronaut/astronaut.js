@@ -1,10 +1,14 @@
 import React from "react"
 
+import { Galax, Rocketman } from './astronaut.style'
+
 const Astronaut = () => {
     return (
-        <h4>
-            HHH
-        </h4>
+        <Galax>
+            <Rocketman>
+
+            </Rocketman>
+        </Galax>
     )
 }
 
