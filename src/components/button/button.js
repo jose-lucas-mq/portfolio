@@ -2,10 +2,10 @@ import React from "react"
 
 import { ButtonDefault } from './button.style'
 
-const Button = () => {
+const Button = ({content}) => {
     return (
         <ButtonDefault>
-            Fale comigo
+            {content}
         </ButtonDefault>
     )
 }
