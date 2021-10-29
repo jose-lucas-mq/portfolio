@@ -4,6 +4,7 @@ import { NavBar } from './../../components/navBar'
 import { Button } from './../../components/button'
 import { About } from './../../components/about'
 import { Astronaut } from './../../components/astronaut'
+import { Introduction } from './../../components/intro'
 
 
 const Main = () => {
@@ -14,6 +15,7 @@ const Main = () => {
                 <About/>
                 <Button />
                 <Astronaut />
+                <Introduction />
             </>
         
     )

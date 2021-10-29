@@ -26,6 +26,33 @@ export const Styles = createGlobalStyle`
     display: block;
     max-width: 100%;
   }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #171717; 
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2F2F2F;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000;
+    ; 
+  }
+
+  ::selection {
+    background: #8B04BA;
+    color: #fff;
+}
 `
 const GlobalStyle = () => (
   <Styles />
